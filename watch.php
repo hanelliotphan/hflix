@@ -1,11 +1,17 @@
 <?php
 
+$hideNav = true;
 require_once("includes/header.php");
 
 if(!isset($_GET["id"])) {
     ErrorMessage::show("No ID passed into page");
 }
 
+$user = new User($con, $userLoggedIn);
+if(!$user->getIsSubscribed()) {
+    ErrorMessage::show("You must subscribe to HFLix to continue watching
+                        <a href='profile.php'>Click here to subscribe</a>");
+}
 $video = new Video($con, $_GET["id"]);
 $video->incrementViews();
 

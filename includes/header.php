@@ -10,6 +10,7 @@ require_once("includes/classes/SeasonProvider.php");
 require_once("includes/classes/Season.php");
 require_once("includes/classes/Video.php");
 require_once("includes/classes/VideoProvider.php");
+require_once("includes/classes/User.php");
 
 if(!isset($_SESSION["userLoggedIn"])) {
     header("Location: register.php");
@@ -18,6 +19,7 @@ if(!isset($_SESSION["userLoggedIn"])) {
 $userLoggedIn = $_SESSION["userLoggedIn"];
 
 ?>
+
 
 
 <!DOCTYPE html>
@@ -32,3 +34,13 @@ $userLoggedIn = $_SESSION["userLoggedIn"];
 
     <body>
         <div class="wrapper">
+
+
+
+<?php
+
+if(!isset($hideNav)) {
+    include_once("includes/navBar.php");
+}
+
+?>
