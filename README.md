@@ -1,4 +1,4 @@
-# HFlix App - Movie Streaming Website
+# HFlix - Movie Streaming Website
 
 ### Status: Finished
 ### README demo: Updating 
