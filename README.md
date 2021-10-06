@@ -1,5 +1,10 @@
 # HFlix - Movie Streaming Website
 
-### Status: Finished
-### README demo: Updating 
-(Check out product images in `img` folder for an overview of the application).
+## App Status: Finished
+
+## Brief Description
+
+## App Description
+
+## Dedication
+I dedicate this hardwork commitment to my mother and my love TMS. I hope all of you are proud of me.
