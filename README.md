@@ -8,7 +8,8 @@ App Status: `FINISHED`
 In Progress...(Please check `img` folder for demos in the meantime)
 
 ## Dedication
-I dedicate this hardwork commitment to my mother and my love TMS. I hope all of you are proud of me.
+I dedicate this hardwork commitment to my mother, who has sacrificed everything for my better 
+future. I hope you have always been proud of me!
 
 ## Disclaimer
 This project is only for educational purposes (to enhance my coding skills in web development) and 
